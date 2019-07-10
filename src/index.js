@@ -7,7 +7,7 @@ const flash = require('connect-flash');
 const passport = require('passport');
 //initializations
 const app = express();
-require('./database');
+require('./cresco-db');
 require('./controller/useraccess');
 //Settings
 app.set('port', process.env.PORT || 3000);
@@ -24,7 +24,7 @@ app.set('view engine', '.hbs');
 app.use(express.urlencoded({extended: false}));
 app.use(methodOverride('_method'));
 app.use(session({
-    secret: 'mysecretapp',
+    secret: 'cresco',
     resave: true,
     saveUninitialized: true
 }));
