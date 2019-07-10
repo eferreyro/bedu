@@ -4,7 +4,7 @@
   "description": "Proyecto CRES.CO",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "cresco": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -21,7 +21,9 @@
     "passport-local": "^1.0.0"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.1",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
   },
   "repository": {
     "type": "git",
