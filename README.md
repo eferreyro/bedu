@@ -5,8 +5,10 @@ CRESCO es un proyecto desarrollado en BEDU con tecnologia FULLSTACK JavaScript. 
 
 Puedes hacer Clone del repo https://github.com/eferreyro/bedu.git
 una vez clonado el repo puedes incializarlo con: 
+
 ```bash
-npm run cresco
+- npm -i
+- npm run cresco
 ```
 
 
