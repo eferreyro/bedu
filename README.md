@@ -1,5 +1,5 @@
 # PROYECTO CRESCO
-CRESCO es un proyecto desarrollado en BEDU con tecnologia FULLSTACK JavaScript. utilizamos metodologia MVC y Framework
+CRESCO es un proyecto desarrollado en BEDU con tecnologia FULLSTACK JavaScript. utilizamos metodologia MVC y Framework Express
 
 ## Instalacion
 
