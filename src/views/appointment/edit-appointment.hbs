@@ -10,7 +10,7 @@
 <div class="col-md-4 mx-auto">
   <div class="card">
     <div class="card-header">
-      <h3>Editar CITA</h3>
+      <h3><strong>  Editar CITA</strong></h3>
     </div>
     <div class="card-body">
       <form action="/appointment/edit-appointment/{{appointment._id}}?_method=PUT" method="POST">
@@ -21,6 +21,15 @@
         <div class="form-group">
           <textarea name="description" class="form-control">{{appointment.description}}</textarea>
         </div>
+      <div class="form-group row">
+      <label for="Fecha-hora-cita" class="col">Reprogramar Fecha y hora de la Cita</label>
+        <div class="col">
+          <input class="form-control" name="citadate" type="datetime-local" value="2019-08-19T13:45:00">
+          <p class="primary"><mark>Cita actualmente programada para el: </mark></p>
+          <p><mark>{{appointment.citadate}}</mark></p>
+        </div>
+      </div>
+
         <div class="form-group">
           <button class="btn btn-primary btn-block" type="submit">
             Save

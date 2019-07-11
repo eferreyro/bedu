@@ -6,7 +6,9 @@
         <h4 class="card-title d-flex justify-content-between align-items-center">
           <strong>Cita: {{  title  }} </strong>
         </h4>
-        <p>{{ description }}</p>
+        
+        <p>Paciente: {{user.name}} </p>
+        <p>Descripcion: {{ description }}</p>
         <p>{{ citadate }}</p>
         {{!-- EDIT APPOINTMENT --}}
         <form action="/appointment/edit/{{_id}}">
