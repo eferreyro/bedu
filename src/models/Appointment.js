@@ -10,9 +10,9 @@ const AppointmentSchema = new Schema({
     type: String,
     required: true
   },
-  appointmentDate: {
+  citadate: {
     type: Date,
-    default: Date.now
+    required: true
   },
   date: {
     type: Date,
